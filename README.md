@@ -8,8 +8,6 @@ TundrAI is a **fully open-source, self-hosted AI-powered chatbot** that answers 
 
 While the primary use case is to support a specific software product, the project is designed to be **documentation-agnostic** — it should work with any set of supported documents and can be used across different software projects or use cases.
 
-TundrAI will be developed and published on the creator's personal GitHub account, and when mature, will be offered to the company for internal integration. and, when mature, will be offered to the company for internal integration.
-
 ---
 
 ## 🔧 Tech Stack
@@ -61,7 +59,7 @@ Kubernetes readiness is a goal, but Kubernetes configuration will not be include
 ### Versioning
 
 * Document versioning via Git is optional but recommended
-* You may store the documentation in a separate Git repo and mount or sync it into the `data/docs/` folder
+* We may store the documentation in a separate Git repo and mount or sync it into the `data/docs/` folder
 * This allows change tracking and enables automated re-ingestion on updates via hooks or pipelines
 
 ---
